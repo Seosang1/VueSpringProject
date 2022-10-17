@@ -8,10 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
  
 
 @RestController
-public class testController {
-   @GetMapping("/test")
-    public String index() {
-        System.out.println("test server start");
-        return "index";
-    }
+public class testController { 
+ 
+    // @RequestMapping("/")
+    // @ResponseBody
+	// public String index() {
+	// 	return "안녕하세요, 스프링입니다.";
+	// }
 } 
+
+ 
