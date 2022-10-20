@@ -2,3 +2,24 @@
     text-align: center;
     background-color: lightgray;
   }
+  
+.align-center {
+    text-align: center;
+}
+
+.content {
+  height: 100vh;
+}
+
+.main_header {
+  margin-bottom: 50px;
+}
+
+.main_footer {
+  margin-top: 50px;
+}
+
+.select-box {
+  width: 150px;
+  border: 2px black solid;
+}

@@ -11,8 +11,10 @@
         작성자
         </th>
     </tr>
-    </thead>
+    </thead> 
     <tbody> 
     </tbody>
   </template>
+  
+
   

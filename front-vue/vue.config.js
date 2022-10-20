@@ -5,10 +5,13 @@ module.exports = defineConfig({
 })
 */
 
-module.exports = {  
-  outputDir: "../src/main/resources/static",             // outputDir은 npm run build로 빌드 시 파일이 생성되는 위치
+module.exports = {
+  // outputDir은 npm run build로 빌드 시 파일이 생성되는 위치
+  outputDir: "../src/main/resources/static",
+
   transpileDependencies: true,
   lintOnSave : false,
+
   devServer: {             
     port: 3000,
     proxy: {
@@ -18,5 +21,11 @@ module.exports = {
         changeOrigin: true // cross origin 허용.
       }
     }
+  },
+
+  pluginOptions: {
+    vuetify: {
+			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
+		}
   }
 };
