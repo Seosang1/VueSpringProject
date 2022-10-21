@@ -1,5 +1,5 @@
 <template>
-	<header class="main_header">
+	<header class="wrap_header">
 	<nav class="navbar navbar-expand-sm navbar-light bg-light">
 		<div class="container-fluid">
             <div 

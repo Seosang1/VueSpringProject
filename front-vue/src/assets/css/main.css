@@ -10,12 +10,13 @@
 .content {
   height: 100vh;
 }
+ 
 
-.main_header {
+.wrap_header {
   margin-bottom: 50px;
 }
 
-.main_footer {
+._footer {
   margin-top: 50px;
 }
 
@@ -23,3 +24,4 @@
   width: 150px;
   border: 2px black solid;
 }
+ 

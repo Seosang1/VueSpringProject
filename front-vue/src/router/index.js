@@ -77,6 +77,38 @@ const routes = [
          import(
             /* webpackChunkName:"dataBinding", webpackPrefetch:true*/ '../components/1_databindingStudy/BindingList.vue'
          )
+    },
+    {
+        path: '/dataBinding/class',
+        name: 'BindingClass', 
+        component: () =>
+         import(
+            /* webpackChunkName:"dataBinding", webpackPrefetch:true*/ '../components/1_databindingStudy/BindingClass.vue'
+         )
+    },
+    {
+        path: '/dataBinding/style',
+        name: 'BindingStyle',
+        component: () =>
+         import(
+            /* webpackChunkName:"dataBinding", webpackPrefetch:true*/ '../components/1_databindingStudy/BindingStyle.vue'
+         )
+    },
+    {
+        path: '/event/click',
+        name: 'EventClick',
+        component: () =>
+         import(
+            /* webpackChunkName:"dataBinding", webpackPrefetch:true*/ '../components/2_eventStudy/EventClick.vue'
+         )
+    },
+    {
+        path: '/event/key',
+        name: 'EventKey',
+        component: () =>
+         import(
+            /* webpackChunkName:"dataBinding", webpackPrefetch:true*/ '../components/2_eventStudy/EventKey.vue'
+         )
     }
 ]
 

@@ -1,6 +1,6 @@
 <template>
    
-  <v-app class="footer_app main_footer">
+  <v-app class="footer_app wrap_footer">
     <v-footer class="bg-grey-lighten-1">
       <v-row justify="center" no-gutters>
         <v-btn
