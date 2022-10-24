@@ -13,7 +13,7 @@ import { loadFonts } from './plugins/webfontloader'
 loadFonts()
 
 const app = createApp(App);
-app.use(router);
+app.use(router); 
 app.use(vuetify)
 app.use(store);
 app.mount('#app');

@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home      from '../components/Home.vue';
+import Home from '../components/Home.vue';
 
 const routes = [
     { 
@@ -108,6 +108,14 @@ const routes = [
         component: () =>
          import(
             /* webpackChunkName:"dataBinding", webpackPrefetch:true*/ '../components/2_eventStudy/EventKey.vue'
+         )
+    },
+    {
+        path: '/axios/news',
+        name: 'AxiosNews',
+        component: () =>
+         import(
+            /* webpackChunkName:"dataBinding", webpackPrefetch:true*/ '../components/3_apiAxiosStudy/newsApiGet.vue'
          )
     }
 ]
